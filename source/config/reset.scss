@@ -1,6 +1,13 @@
+@use 'variaveis';
+@use '$branding-color';
+@use '$product-bg';
+@use '$product-button-bg';
+@use '$product-button-hover-bg';
+@use '$product-border';
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto, sans-serif;
+    font-family: variaveis.$fontPrincipal;
     }
